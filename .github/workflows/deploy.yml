@@ -1,0 +1,65 @@
+name: AI Guardian OS Production Deploy CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend-next
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: './frontend-next/package-lock.json'
+
+      - name: Install Project Dependencies
+        run: npm ci
+
+      - name: Linter Check
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Strict TypeScript Compilation Check
+        run: npx tsc --noEmit
+
+      - name: Static Output Build Compilation
+        run: npm run build
+
+  build-containers:
+    needs: validate-frontend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Frontend Container Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./frontend-next
+          file: ./frontend-next/Dockerfile
+          push: false
+          tags: ai-guardian-frontend:latest
+
+      - name: Build Backend Container Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: false
+          tags: ai-guardian-backend:latest

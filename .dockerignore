@@ -1,0 +1,25 @@
+# Version control
+.git
+.gitignore
+
+# Python caches and virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Node/Next.js files that are not needed in python backend image
+frontend-next/node_modules/
+frontend-next/.next/
+frontend-next/out/
+frontend-backup/
+node_modules/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore

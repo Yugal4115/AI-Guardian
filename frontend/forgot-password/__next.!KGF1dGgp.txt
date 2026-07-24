@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[26525,["/ui/_next/static/chunks/1t4ithblfzfnx.js","/ui/_next/static/chunks/2l061869n94ek.js"],"default"]
+3:I[39931,["/ui/_next/static/chunks/1t4ithblfzfnx.js","/ui/_next/static/chunks/2l061869n94ek.js"],"default"]
+4:I[86457,["/ui/_next/static/chunks/1t4ithblfzfnx.js","/ui/_next/static/chunks/2l061869n94ek.js","/ui/_next/static/chunks/3xuin7lt3jewx.js","/ui/_next/static/chunks/1adk--5qv412t.js"],"default"]
+5:[]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","$L4",null,{}],[]]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W5","buildId":"KNXBan_RJVeeyC8_NBYOj"}

@@ -1,0 +1,35 @@
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Databases
+gaurdian.db
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend dependency & build files (in subfolders)
+**/node_modules/
+**/.next/
+**/*.tsbuildinfo

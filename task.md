@@ -1,0 +1,21 @@
+# Tasks
+
+- `[x]` Initialize Next.js 15 App in `frontend-next` with TypeScript, ESLint, TailwindCSS
+- `[x]` Install dependencies (GSAP, Framer Motion, Lenis, Three.js, React Three Fiber, React Three Drei, Lucide)
+- `[x]` Build Web Audio API sound synthesizer and Boot Loading sequence
+- `[x]` Build Layout & Custom Cursor (gold ring outline with hover labels)
+- `[x]` Build Hero section (fading letters reveal, 3D Sedan chassis canvas, sunset style background)
+- `[x]` Implement Scroll Story sections:
+  - `[x]` Section 1: Who is GAURDIAN (Timeline timeline layout)
+  - `[x]` Section 2: The AI Brain (Floating holographic 3D orb responsive to mouse)
+  - `[x]` Section 3: Digital Twin (Transparent vehicle chassis with battery, sensors)
+  - `[x]` Section 4: Predictive Intelligence (Hover cards: Observe, Reason, Predict, Protect)
+  - `[x]` Section 5: Connected Ecosystem (Glowing network map)
+  - `[x]` Section 6: Statistics (Live count up counters)
+  - `[x]` Section 7: Vision (Editorial layout with ambient particle flow)
+- `[x]` Implement Portal Gateway and OS Login screen (glass login panel, biometric buttons)
+- `[x]` Implement Cockpit Dashboard (Overview, Vehicle, Navigation, Safety, AI Chat, Analytics, Reports, Settings)
+- `[x]` Integrate WebSocket telemetry, chat endpoints, and report generator APIs
+- `[x]` Configure Next.js static export (`output: 'export'`)
+- `[x]` Build project and deploy static assets into `frontend/`
+- `[x]` Verify application locally under FastAPI `/ui` route

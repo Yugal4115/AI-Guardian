@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[88906,["/ui/_next/static/chunks/1t4ithblfzfnx.js","/ui/_next/static/chunks/2l061869n94ek.js"],"ViewportBoundary"]
+3:I[88906,["/ui/_next/static/chunks/1t4ithblfzfnx.js","/ui/_next/static/chunks/2l061869n94ek.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[50574,["/ui/_next/static/chunks/1t4ithblfzfnx.js","/ui/_next/static/chunks/2l061869n94ek.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"AI GUARDIAN OS | World's First Agentic AI Operating System"}],["$","meta","1",{"name":"description","content":"Enterprise Fully Agentic AI Operating System for Autonomous Intelligent Mobility."}],["$","link","2",{"rel":"icon","href":"/ui/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"KNXBan_RJVeeyC8_NBYOj"}
