@@ -99,6 +99,13 @@ async def shutdown_event():
     await engine.dispose()
     await redis_pool.disconnect()
 
+# --- Root Redirect ---
+from fastapi.responses import RedirectResponse
+
+@app.get("/", include_in_schema=False)
+async def root_redirect():
+    return RedirectResponse(url="/ui/")
+
 # --- Health Endpoint ---
 @app.get("/health", status_code=status.HTTP_200_OK, tags=["System Health"])
 async def system_health_check(
